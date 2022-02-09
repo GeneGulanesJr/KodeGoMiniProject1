@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/samplestyles.css">
     <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://github.com/chr15m/DoodleCSS/blob/main/doodle.css">
     <link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css"/>
+    <link rel="stylesheet" href="CSS/blocks.css" />
     <title>Retro Games</title>
 
     <style>
@@ -23,16 +25,18 @@
 <body>
 <header id="main-header">
     <nav id="navbar">
-        <h1>Retro Games</h1>
+       <div class="wrapper block accent">RetroGamesPH</div>
+
         <ul>
-            <li class="nav-link"><a href="#homepage">Homepage</a></li>
-            <li class="nav-link"><a href="#what-you">Introduction</a></li>
-            <li class="nav-link"><a href="#javaScript-and-java">History</a></li>
-            <li class="nav-link"><a href="#hello-world">Gallery</a></li>
-            <li class="nav-link"><a href="#variables">Contact Us</a></li>
-            <li class="nav-link"><a href="#declaring-variables">About Page</a></li>
-            <li class="nav-link"><a href="#variable-scope">Game Page</a></li>
-            <li class="nav-link"><a href="#global-variables">Game Links</a></li>
+            <li class="nav-link block"><a href="#homepage">Homepage</a></li>
+            <li class="nav-link block"><a href="#what-you">Introduction</a></li>
+            <li class="nav-link block"><a href="#history">History</a></li>
+            <li class="nav-link block"><a href="#gallery">Gallery</a></li>
+            <li class="nav-link block"><a href="#contact-us">Contact Us</a></li>
+            <li class="nav-link block"><a href="#about-page">About Us Page</a></li>
+            <li class="nav-link block"><a href="#game-page">Game Page</a></li>
+            <li class="nav-link block"><a href="#game-links">Game Links</a></li>
+
 
         </ul>
     </nav>
@@ -82,8 +86,8 @@
         </article>
     </section>
 
-    <section class="main-section" id="javaScript-and-java">
-        <header>JavaScript and Java</header>
+    <section class="main-section" id="history">
+        <header>History</header>
         <article class="main-article">
             <p>JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript
                 language resembles Java but does not have Java's static typing and strong type checking. JavaScript
@@ -109,8 +113,8 @@
         </article>
     </section>
 
-    <section class="main-section" id="hello-world">
-        <header>Hello world</header>
+    <section class="main-section" id="gallery">
+        <header>Gallery</header>
         <article class="main-article">
             <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript
                 code:</p>
@@ -120,8 +124,8 @@
         </article>
     </section>
 
-    <section class="main-section" id="variables">
-        <header>Variables</header>
+    <section class="main-section" id="contact-us">
+        <header>Contact Us</header>
         <article class="main-article">
             <p>You use variables as symbolic names for values in your application. The names of variables, called
                 identifiers, conform to certain rules.</p>
@@ -137,11 +141,11 @@
         </article>
     </section>
 
-    <section class="main-section" id="declaring-variables">
-        <header>Declaring variables</header>
+    <section class="main-section" id="about-page">
+        <header>About Us Page</header>
         <article class="main-article">
-            <p>You can declare a variable in three ways:</p>
-            <p>With the keyword var. For example,</p>
+            <button class="wrapper block accent">RetroGamesPH</button>
+            <p>We are an e-Magazine company that host information about popular retro games</p>
             <code>var x = 42.</code>
             <p>This syntax can be used to declare both local and global variables.</p>
             <p>By simply assigning it a value. For example,</p>
@@ -154,8 +158,8 @@
         </article>
     </section>
 
-    <section class="main-section" id="variable-scope">
-        <header>Variable scope</header>
+    <section class="main-section" id="game-page">
+        <header>Game Page</header>
         <article class="main-article">
             <p>When you declare a variable outside of any function, it is called a global variable, because it is
                 available
@@ -176,8 +180,8 @@
         </article>
     </section>
 
-    <section class="main-section" id="global-variables">
-        <header>Global variables</header>
+    <section class="main-section" id="game-link">
+        <header>Game Links</header>
         <article class="main-article">
             <p>Global variables are in fact properties of the global object. In web pages the global object is window,
                 so
