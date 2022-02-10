@@ -133,8 +133,22 @@ body {
 
 .row {
     display: flex;
+
 }
 
 .column {
     flex: 50%;
+    margin: 5px;
+    float: left;
+}
+
+.column3{
+    float: left;
+
+}
+
+.row3:after {
+    content: "";
+    display: table;
+    clear: both;
 }

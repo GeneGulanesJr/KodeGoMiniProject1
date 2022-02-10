@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/styles.css">
-    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/nes.css/css/nes-core.min.css" rel="stylesheet"/>
 
     <link rel="stylesheet" href="CSS/blocks.css"/>
 
@@ -23,14 +23,12 @@
 <body>
 
 
-
-
 <header id="main-header">
     <nav id="navbar">
-       <div class="wrapper block accent">RetroGamesPH</div>
+        <div class="wrapper block accent">RetroGamesPH</div>
 
         <ul>
-            <li class="nav-link block"><a href="#homepage">Homepage</a></li>
+            <li class="nav-link block "><a href="#homepage">Homepage</a></li>
             <li class="nav-link block"><a href="#what-you">Introduction</a></li>
             <li class="nav-link block"><a href="#history">History</a></li>
             <li class="nav-link block"><a href="#gallery">Gallery</a></li>
@@ -40,12 +38,9 @@
             <li class="nav-link block"><a href="#game-page">Game Page</a></li>
 
 
-
         </ul>
     </nav>
 </header>
-
-
 
 
 <main id="main-doc">
@@ -133,38 +128,64 @@
 
     <section class="main-section" id="contact-us">
         <header>Contact Us</header>
-        <article class="main-article">
-            <div class="row">
-                <div class="column">
-                    <div class="nes-field">
-                        <label for="name_field">Your name</label>
-                        <input type="text" id="name_field" class="nes-input">
+
+        <article class="main-article block">
+            <form>
+                <fieldset>
+                    <div class="row">
+                        <div class="column ">
+                            <div class="nes-field ">
+                                <label for="name_field" class="wrapper block">First Name</label>
+                                <input type="text" id="name_field" class="nes-input wrapper block">
+                            </div>
+                            <div class="nes-field">
+                                <label for="name_field2" class="wrapper block">Email Address</label>
+                                <input type="email" id="name_field2" class="nes-input wrapper block">
+                            </div>
+
+                        </div>
+                        <div class="column">
+                            <div class="nes-field">
+                                <label for="name_field3" class="wrapper block">Last Name</label>
+                                <input type="text" id="name_field3" class="nes-input wrapper block">
+                            </div>
+                            <div class="nes-field">
+                                <label for="name_field4" class="wrapper block">Contact Number</label>
+                                <input type="number" id="name_field4" class="nes-input wrapper block">
+                            </div>
+
+                        </div>
                     </div>
-                    <div class="nes-field">
-                        <label for="name_field">Your name</label>
-                        <input type="text" id="name_field1" class="nes-input">
+                    <div class="row">
+                        <div class="column">
+
+                            <label for="textarea_field" class="block">Address</label>
+                            <textarea id="textarea_field" class="nes-textarea wrapper block"></textarea>
+                        </div>
                     </div>
 
-                </div>
-                <div class="column">
-                    <div class="nes-field">
-                        <label for="name_field">Your name</label>
-                        <input type="text" id="name_field3" class="nes-input">
+
+                    <div class="row">
+                        <div class="column">
+
+                            <label for="textarea_field2" class="block">Comments/Suggestions</label>
+                            <textarea id="textarea_field2" class="nes-textarea wrapper block"></textarea>
+                        </div>
                     </div>
-                    <div class="nes-field">
-                        <label for="name_field">Your name</label>
-                        <input type="text" id="name_field4" class="nes-input">
+                    <div class="row">
+                        <div class="column">
+                            <button type="button" class="wrapper block custom-accent "
+                                    onclick="location.href='mailto:em@i.l';">Send
+                            </button>
+
+                        </div>
                     </div>
-
-                </div>
-            </div>
-
+                </fieldset>
+            </form>
 
 
-
-
-
-
+            <br>
+            <br>
 
 
         </article>
@@ -175,10 +196,10 @@
         <article class="main-article">
 
 
-
-
             <div class="nes-container with-title is-centered">
-                <p class="title">   <button class="wrapper block accent">RetroGamesPH</button></p>
+                <p class="title">
+                    <button class="wrapper block accent">RetroGamesPH</button>
+                </p>
                 <p>We are an e-Magazine company that host information about popular retro games</p>
             </div>
             <p>This syntax can be used to declare both local and global variables.</p>
@@ -195,25 +216,52 @@
     </section>
 
 
-
     <section class="main-section" id="game-links">
         <header>Game Links</header>
         <article class="main-article">
-            <p>Global variables are in fact properties of the global object. In web pages the global object is window,
-                so
-                you can set and access global variables using the window.variable syntax.</p>
-            <p>Consequently, you can access global variables declared in one window or frame from another window or
-                frame by
-                specifying the window or frame name. For example, if a variable called phoneNumber is declared in a
-                document,
-                you can refer to this variable from an iframe as parent.phoneNumber.</p>
+
+            <div class="row3 ">
+
+                <div class="column3  block">
+<h2><a href="https://classicreload.com">Classic Reload</a> </h2>
+                <img src="Images/RetroGameSites/ClassicReload.png" alt="Classic Reload" width="310px" height="250px" class="nes-pointer">
+
+                </div>
+
+                <div class="column3 block">
+                    <h2><a href="https://classicreload.com">Classic Reload</a> </h2>
+                    <img src="Images/RetroGameSites/EmulatorGamesOnline.png" alt="Emulator Games Onlone" width="310px" height="250px" class="nes-pointer">
+                </div>
+                <div class="column3 block">
+                    <h2><a href="https://classicreload.com">Classic Reload</a> </h2>
+                    <img src="Images/RetroGameSites/MyEmulatorOnline.png" alt="My Emulator Online" width="310px" height="250px" class="nes-pointer">
+                </div>
+            </div>
+            <div class="row3 nes-pointer">
+                <div class="column3 block">
+                    <h2><a href="https://classicreload.com">Classic Reload</a> </h2>
+                    <img src="Images/RetroGameSites/OldGamesShelf.png" alt="Old Games Shelf" width="310px" height="250px" class="nes-pointer">
+                </div>
+                <div class="column3 block nes-pointer">
+                    <h2><a href="https://classicreload.com">Classic Reload</a> </h2>
+                    <img src="Images/RetroGameSites/PlayClassicGames.png" alt="Play Classic Games" width="310px" height="250px" class="nes-pointer">
+                </div>
+                <div class="column3 block nes-pointer">
+                    <h2><a href="https://classicreload.com">Classic Reload</a> </h2>
+                    <img src="Images/RetroGameSites/RetroGamesCZ.png" alt="Retro Games CZ" width="310px" height="250px" class="nes-pointer">
+                </div>
+
+            </div>
+
         </article>
     </section>
 
     <section class="main-section" id="game-page">
         <header>Game Page(Chromium Browsers Only)</header>
         <article class="main-article">
-            <p class="codepen" data-height="435" data-theme-id="dark" data-default-tab="result" data-slug-hash="KKyWbwv" data-user="GeneGulanesJr" style="height: 435px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+            <p class="codepen" data-height="435" data-theme-id="dark" data-default-tab="result" data-slug-hash="KKyWbwv"
+               data-user="GeneGulanesJr"
+               style="height: 435px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/GeneGulanesJr/pen/KKyWbwv">
   Dinosaur Game Chrome</a> by GeneGulanesJr (<a href="https://codepen.io/GeneGulanesJr">@GeneGulanesJr</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>

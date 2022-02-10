@@ -2,7 +2,9 @@ body {
     --block-text-color: #222;
     --block-background-color: #fff;
     --block-accent-color: #00ae86;
-    --block-shadow-color: #444
+    --block-shadow-color: #444;
+    --block-custom-accent-color:#3a5ec5;
+    --block-text-white-color: white;
 }
 
 .block {
@@ -98,6 +100,16 @@ body {
 .block.accent {
     color: var(--block-background-color)
 }
+
+
+
+.block.custom-accent, .block.custom-accent:before {
+    background: var(--block-custom-accent-color );
+    color:var(--block-text-white-color)
+
+
+}
+
 
 .block.accent, .block.accent:before {
     background: var(--block-accent-color)
