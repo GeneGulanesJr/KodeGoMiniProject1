@@ -8,7 +8,8 @@ body {
     line-height: 1.5;
     background-color: #f1f1f1;
 }
-.center{
+
+.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -29,7 +30,7 @@ body {
     border-right: solid 2.5px #333;
 }
 
-#navbar>h1 {
+#navbar > h1 {
     font-size: 1.6rem;
     text-align: center;
     padding: 1rem 0;
@@ -142,9 +143,9 @@ body {
     float: left;
 }
 
-.column2{
+.column2 {
     float: left;
-    width:29%;
+    width: 29%;
 
 }
 
@@ -154,7 +155,7 @@ body {
     clear: both;
 }
 
-.column3{
+.column3 {
     float: left;
 
 }
@@ -164,7 +165,6 @@ body {
     display: table;
     clear: both;
 }
-
 
 
 .gallery-row {
