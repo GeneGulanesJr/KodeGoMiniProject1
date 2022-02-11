@@ -1,12 +1,14 @@
 /* css reset */
 * {
     margin: 0;
+
 }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
     background-color: #f1f1f1;
+
 }
 
 .center {
@@ -28,6 +30,7 @@ body {
 #navbar {
     height: 100%;
     border-right: solid 2.5px #333;
+    background: grey;
 }
 
 #navbar > h1 {
