@@ -1,7 +1,7 @@
 /* css reset */
 * {
     margin: 0;
-    background: #e0dada;
+    background: #D8D2CB;
 
 }
 
@@ -145,8 +145,8 @@ body {
 }
 
 .column2 {
-    float: left;
-    width: 29%;
+    float: none;
+    width: 33.33%;
 
 }
 

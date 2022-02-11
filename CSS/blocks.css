@@ -5,6 +5,7 @@ body {
     --block-shadow-color: #444;
     --block-custom-accent-color: #398AB9;
     --block-custom-accent-color-grey: #D8D2CB;
+    --block-custom-accent-color-buttons: #D1D1D1;
     --block-text-white-color: white;
     --block-text-white-black: black;
 
@@ -105,11 +106,15 @@ body {
 }
 
 
+
+.block.custom-accent-buttons, .custom-accent-buttons:before {
+    background: var(--block-custom-accent-color-buttons);
+    color: var(  --block-text-white-black)
+}
+
 .block.custom-accent-grey, .custom-accent-grey:before {
     background: var(--block-custom-accent-color-grey);
     color: var(  --block-text-white-black)
-
-
 }
 
 .block.custom-accent, .block.custom-accent:before {
